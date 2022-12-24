@@ -50,12 +50,12 @@ public class Deck {
 
 	            for (int i = topCard; i >= topCard - 6; i=i-2) {
 	                
-	                player.cardsInHand()[numberOfCards] = cards[i];
-	                computer.cardsInHand()[numberOfCards] = cards[i-1];
+	                player.cardsInHand[numberOfCards] = cards[i];
+	                computer.cardsInHand[numberOfCards] = cards[i-1];
 	                numberOfCards++;
 	        }
 	            player.numberOfCards= 4;
-	            computer.numberOfCads= 4;
+	            computer.numberOfCards= 4;
 	            topCard = topCard - 8;
 	    }
 }

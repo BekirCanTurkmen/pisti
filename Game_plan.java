@@ -1,5 +1,5 @@
 public class Game_plan {
-	public Card[] CardsInHand = new Card[4];
+	public Card[] cardsInHand = new Card[4];
 	public int numberOfCards = 0;
 	public int score = 0;
 	public int pistiNum = 0;
