@@ -1,8 +1,9 @@
 public class Card {
+
     private String face;
     private String suit;
 
-    public Card (String suit, String face) {
+    public Card(String suit, String face) {
 
         this.suit= suit;
         this.face= face;
